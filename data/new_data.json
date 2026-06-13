@@ -1,0 +1,154 @@
+{
+    "UNF_PSNGR_ID": "2349202",
+    "FRST_NM": "PRICILLA",
+    "LST_NM": "SMITH",
+    "DOB_DT": "1963-05-23T00:00:00",
+    "CTZNSHP_CTRY_CD": "MEX",
+    "GNDR_CD": "F",
+    "BIRTH_LOC": [
+        {
+            "BIRTH_CTRY_CD": "USA",
+            "BIRTH_CITY_NM": "Netherland"
+        }
+    ],
+    "SEACATS":[],
+    "UNF_PRSN_CO_TRAVELERS":[
+        {
+            "UNF_PSNGR_ID": "2349202",
+            "FRST_NM": "MARCELA",
+            "LST_NM": "SMITH",
+            "DOB_DT": "1963-05-23T00:00:00",
+            "SEACATS": [],
+            "VISA": [],
+            "SECONDARY":[],
+            "CO_TRAVELERS": [
+                {
+                    "UNF_PSNGR_ID": "2349202",
+                    "FRST_NM": "JESUS",
+                    "LST_NM": "SMITH",
+                    "DOB_DT": "1963-05-23T00:00:00",
+                    "SEACATS": [],
+                    "VISA": [],
+                    "SECONDARY":[]
+                },
+                {
+                    "UNF_PSNGR_ID": "2349202",
+                    "FRST_NM": "MOM_PRI",
+                    "LST_NM": "SMITH",
+                    "DOB_DT": "1963-05-23T00:00:00",
+                    "SEACATS": [],
+                    "VISA": [],
+                    "SECONDARY":[]
+                }
+
+            ]
+        },
+        {
+            "UNF_PSNGR_ID": "2349202",
+            "FRST_NM": "AUNT_PRI",
+            "LST_NM": "SMITH",
+            "DOB_DT": "1963-05-23T00:00:00",
+            "SEACATS": [],
+            "VISA": [],
+            "SECONDARY":[
+                {
+                    "SUB_TRN_TYP":"AGRIC_WRKSPC",
+                    "RSN_TXT":"CHORIZO",
+                    "CRSG_DTTM": "2025-06-10T10:12:51",
+                    "RFRL_WRKSPC_ID_NBR": 180293492
+                }
+            ],
+            "CO_TRAVELERS": [
+                {
+                    "UNF_PSNGR_ID": "2349202",
+                    "FRST_NM": "NEWPHEW_PRI",
+                    "LST_NM": "SMITH",
+                    "DOB_DT": "1973-05-23T00:00:00",
+                    "SEACATS": [],
+                    "VISA": [],
+                    "SECONDARY":[]
+                },
+                {
+                    "UNF_PSNGR_ID": "2349202",
+                    "FRST_NM": "COUSIN_PRI",
+                    "LST_NM": "SMITH",
+                    "DOB_DT": "1983-05-23T00:00:00",
+                    "SEACATS": [],
+                    "VISA": [
+                        {
+                            "TYPE":"REFUSAL",
+                            "RFSL_CD":"P1A3",
+                            "RFSL_DTTM":"2025-12-03T14:31:01"
+                        }
+                    ],
+                    "SECONDARY":[]
+                }
+            ]
+        },
+        {
+            "UNF_PSNGR_ID": "2349302",
+            "FRST_NM": "CARLOS",
+            "LST_NM": "GARCIA",
+            "DOB_DT": "1963-05-23T00:00:00",
+            "SEACATS": [],
+            "VISA": [],
+            "SECONDARY":[
+                {
+                    "SUB_TRN_TYP":"AGRIC_WRKSPC",
+                    "RSN_TXT":"CHORIZO",
+                    "CRSG_DTTM": "2025-06-10T10:12:51",
+                    "RFRL_WRKSPC_ID_NBR": 180293492
+                }
+            ],
+            "CO_TRAVELERS": [
+                {
+                    "UNF_PSNGR_ID": "2349202",
+                    "FRST_NM": "NEWPHEW_PRI",
+                    "LST_NM": "SMITH",
+                    "DOB_DT": "1973-05-23T00:00:00",
+                    "SEACATS": [],
+                    "VISA": [],
+                    "SECONDARY":[]
+                },
+                {
+                    "UNF_PSNGR_ID": "2249202",
+                    "FRST_NM": "TADEO",
+                    "LST_NM": "SMITH",
+                    "DOB_DT": "1993-05-23T00:00:00",
+                    "SEACATS": [
+                        {
+                            "ENF_ACTN_ID":"2933932",
+                            "NCDNT_DTTM": "2022-01-22T12:12:20:00",
+                            "NCDNT_ID": "3426093",
+                            "NCDNT_TYP": "AR"
+                        }
+                    ],
+                    "VISA": [],
+                    "SECONDARY":[]
+                }
+            ]
+        }
+    ],
+
+    "PHONE_NUMBERS": [
+        {
+              "PHN_NBR": "4432932929"
+        },
+         {
+              "PHN_NBR": "7192932929"
+        }
+    ],
+    "ADDRESSES": [
+        {
+            "ADDR_INTRNL_SEQ": 1,
+            "ADDR": "234 Main St",
+            "ADDR_TYP": "H"
+        },
+        {
+            "ADDR_INTRNL_SEQ": 2,
+            "ADDR": "59553 Maizeland St",
+            "ADDR_TYP": "H"
+        }
+    ]
+}
+

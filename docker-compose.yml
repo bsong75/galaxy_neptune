@@ -1,0 +1,62 @@
+services:
+  elasticsearch:
+    image: elasticsearch:8.17.0
+    container_name: elasticsearch
+    ports:
+      - "9200:9200"
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=true
+      - ELASTIC_PASSWORD=changeme
+      - TZ=America/New_York
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: curl -s -u elastic:changeme http://localhost:9200/_cluster/health || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    networks:
+      - app-net
+
+  flask_api:
+    build: ./server
+    container_name: flask_api
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - TZ=America/New_York
+      - NEPTUNE_HOST=${NEPTUNE_HOST}
+      - NEPTUNE_PORT=${NEPTUNE_PORT:-8182}
+      - NEPTUNE_REGION=${NEPTUNE_REGION:-us-east-1}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - AWS_SESSION_TOKEN=${AWS_SESSION_TOKEN}
+      - REACT_APP_URL=http://localhost:3005
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - ELASTICSEARCH_USER=elastic
+      - ELASTICSEARCH_PASSWORD=changeme
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    networks:
+      - app-net
+
+  react_front:
+    build: ./client
+    container_name: react_front
+    ports:
+      - "3005:80"
+    depends_on:
+      - flask_api
+    networks:
+      - app-net
+
+volumes:
+  es_data:
+
+networks:
+  app-net:

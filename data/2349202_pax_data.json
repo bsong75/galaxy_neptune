@@ -1,0 +1,291 @@
+{
+    "UNF_PSNGR_ID": "2349202",
+    "FRST_NM": "PRICILLA",
+    "LST_NM": "SMITH",
+    "DOB_DT": "1963-05-23T00:00:00",
+    "CTZNSHP_CTRY_CD": "MEX",
+    "GNDR_CD": "F",
+    "BIRTH_LOC": [
+        {
+            "BIRTH_CTRY_CD": "USA",
+            "BIRTH_CITY_NM": "Calexico"
+        }
+    ],
+    "SEACATS": [
+        {
+            "ENF_ACTN_ID": "5019283",
+            "NCDNT_DTTM": "2024-03-15T08:45:00",
+            "NCDNT_ID": "7781024",
+            "NCDNT_TYP": "SW",
+            "DSC_TXT": "129 KG of Methamphetamine, 2006 Chrysler Pacifica/one arrest",
+            "PORT_CD": "2503",
+            "NCDNT_LOC_TXT": "CALEXICO WEST PORT OF ENTRY"
+        },
+        {
+            "ENF_ACTN_ID": "5019440",
+            "NCDNT_DTTM": "2023-11-02T14:22:10",
+            "NCDNT_ID": "7643201",
+            "NCDNT_TYP": "AR",
+            "DSC_TXT": "Subject arrested at POE, outstanding federal warrant/fugitive from justice",
+            "PORT_CD": "2504",
+            "NCDNT_LOC_TXT": "CALEXICO EAST PORT OF ENTRY"
+        }
+    ],
+    "UNF_PRSN_CO_TRAVELERS": [
+        {
+            "UNF_PSNGR_ID": "2349210",
+            "FRST_NM": "MARCELA",
+            "LST_NM": "SMITH",
+            "DOB_DT": "1965-08-14T00:00:00",
+            "SEACATS": [
+                {
+                    "ENF_ACTN_ID": "5020101",
+                    "NCDNT_DTTM": "2024-01-10T09:30:00",
+                    "NCDNT_ID": "7790112",
+                    "NCDNT_TYP": "SW",
+                    "DSC_TXT": "45 LBS of marijuana concealed in spare tire compartment, 2012 Honda Odyssey",
+                    "PORT_CD": "2503",
+                    "NCDNT_LOC_TXT": "CALEXICO WEST PORT OF ENTRY"
+                }
+            ],
+            "VISA": [
+                {
+                    "TYPE": "B1/B2",
+                    "RFSL_CD": "",
+                    "RFSL_DTTM": ""
+                }
+            ],
+            "SECONDARY": [
+                {
+                    "SUB_TRN_TYP": "RANDOM",
+                    "RSN_TXT": "RANDOM SELECTION",
+                    "CRSG_DTTM": "2024-06-20T07:15:00",
+                    "RFRL_WRKSPC_ID_NBR": 180400112
+                }
+            ],
+            "CO_TRAVELERS": [
+                {
+                    "UNF_PSNGR_ID": "2349215",
+                    "FRST_NM": "JESUS",
+                    "LST_NM": "RAMIREZ",
+                    "DOB_DT": "1960-12-01T00:00:00",
+                    "SEACATS": [],
+                    "VISA": [
+                        {
+                            "TYPE": "B1/B2",
+                            "RFSL_CD": "",
+                            "RFSL_DTTM": ""
+                        }
+                    ],
+                    "SECONDARY": []
+                },
+                {
+                    "UNF_PSNGR_ID": "2349218",
+                    "FRST_NM": "ROSA",
+                    "LST_NM": "SMITH",
+                    "DOB_DT": "1940-02-17T00:00:00",
+                    "SEACATS": [],
+                    "VISA": [],
+                    "SECONDARY": [
+                        {
+                            "SUB_TRN_TYP": "DOCS_WRKSPC",
+                            "RSN_TXT": "EXPIRED DOCUMENT",
+                            "CRSG_DTTM": "2025-01-05T11:40:00",
+                            "RFRL_WRKSPC_ID_NBR": 180500334
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "UNF_PSNGR_ID": "2349225",
+            "FRST_NM": "GUADALUPE",
+            "LST_NM": "SMITH",
+            "DOB_DT": "1958-11-30T00:00:00",
+            "SEACATS": [],
+            "VISA": [
+                {
+                    "TYPE": "REFUSAL",
+                    "RFSL_CD": "P1A3",
+                    "RFSL_DTTM": "2022-09-18T10:05:00"
+                }
+            ],
+            "SECONDARY": [
+                {
+                    "SUB_TRN_TYP": "AGRIC_WRKSPC",
+                    "RSN_TXT": "CHORIZO",
+                    "CRSG_DTTM": "2025-06-10T10:12:51",
+                    "RFRL_WRKSPC_ID_NBR": 180293492
+                },
+                {
+                    "SUB_TRN_TYP": "AGRIC_WRKSPC",
+                    "RSN_TXT": "CITRUS FRUIT",
+                    "CRSG_DTTM": "2024-12-22T08:55:30",
+                    "RFRL_WRKSPC_ID_NBR": 180293501
+                }
+            ],
+            "CO_TRAVELERS": [
+                {
+                    "UNF_PSNGR_ID": "2349230",
+                    "FRST_NM": "DIEGO",
+                    "LST_NM": "HERNANDEZ",
+                    "DOB_DT": "1985-07-09T00:00:00",
+                    "SEACATS": [
+                        {
+                            "ENF_ACTN_ID": "2933932",
+                            "NCDNT_DTTM": "2022-01-22T12:12:20",
+                            "NCDNT_ID": "3426093",
+                            "NCDNT_TYP": "AR",
+                            "DSC_TXT": "Subject arrested, 22 undocumented individuals in cargo van, 2018 Ford Transit",
+                            "PORT_CD": "2506",
+                            "NCDNT_LOC_TXT": "OTAY MESA PORT OF ENTRY"
+                        }
+                    ],
+                    "VISA": [],
+                    "SECONDARY": []
+                },
+                {
+                    "UNF_PSNGR_ID": "2349235",
+                    "FRST_NM": "SOFIA",
+                    "LST_NM": "SMITH",
+                    "DOB_DT": "1990-03-25T00:00:00",
+                    "SEACATS": [],
+                    "VISA": [
+                        {
+                            "TYPE": "REFUSAL",
+                            "RFSL_CD": "P6C1",
+                            "RFSL_DTTM": "2025-12-03T14:31:01"
+                        },
+                        {
+                            "TYPE": "B1/B2",
+                            "RFSL_CD": "",
+                            "RFSL_DTTM": ""
+                        }
+                    ],
+                    "SECONDARY": [
+                        {
+                            "SUB_TRN_TYP": "NARCOTICS_WRKSPC",
+                            "RSN_TXT": "K9 ALERT",
+                            "CRSG_DTTM": "2025-04-11T16:20:00",
+                            "RFRL_WRKSPC_ID_NBR": 180600789
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "UNF_PSNGR_ID": "2349302",
+            "FRST_NM": "CARLOS",
+            "LST_NM": "GARCIA",
+            "DOB_DT": "1970-09-12T00:00:00",
+            "SEACATS": [
+                {
+                    "ENF_ACTN_ID": "5021003",
+                    "NCDNT_DTTM": "2023-06-18T11:00:00",
+                    "NCDNT_ID": "7650044",
+                    "NCDNT_TYP": "ER",
+                    "DSC_TXT": "Expedited removal, fraudulent B1/B2 visa presented at POE",
+                    "PORT_CD": "2504",
+                    "NCDNT_LOC_TXT": "CALEXICO EAST PORT OF ENTRY"
+                }
+            ],
+            "VISA": [],
+            "SECONDARY": [
+                {
+                    "SUB_TRN_TYP": "AGRIC_WRKSPC",
+                    "RSN_TXT": "CHORIZO",
+                    "CRSG_DTTM": "2025-06-10T10:12:51",
+                    "RFRL_WRKSPC_ID_NBR": 180293492
+                }
+            ],
+            "CO_TRAVELERS": [
+                {
+                    "UNF_PSNGR_ID": "2349310",
+                    "FRST_NM": "LUCIA",
+                    "LST_NM": "GARCIA",
+                    "DOB_DT": "1973-04-05T00:00:00",
+                    "SEACATS": [],
+                    "VISA": [
+                        {
+                            "TYPE": "B1/B2",
+                            "RFSL_CD": "",
+                            "RFSL_DTTM": ""
+                        }
+                    ],
+                    "SECONDARY": []
+                },
+                {
+                    "UNF_PSNGR_ID": "2349230",
+                    "FRST_NM": "DIEGO",
+                    "LST_NM": "HERNANDEZ",
+                    "DOB_DT": "1985-07-09T00:00:00",
+                    "SEACATS": [
+                        {
+                            "ENF_ACTN_ID": "2933932",
+                            "NCDNT_DTTM": "2022-01-22T12:12:20",
+                            "NCDNT_ID": "3426093",
+                            "NCDNT_TYP": "AR",
+                            "DSC_TXT": "Subject arrested, 22 undocumented individuals in cargo van, 2018 Ford Transit",
+                            "PORT_CD": "2506",
+                            "NCDNT_LOC_TXT": "OTAY MESA PORT OF ENTRY"
+                        }
+                    ],
+                    "VISA": [],
+                    "SECONDARY": []
+                },
+                {
+                    "UNF_PSNGR_ID": "2249202",
+                    "FRST_NM": "TADEO",
+                    "LST_NM": "GARCIA",
+                    "DOB_DT": "1993-05-23T00:00:00",
+                    "SEACATS": [
+                        {
+                            "ENF_ACTN_ID": "2933932",
+                            "NCDNT_DTTM": "2022-01-22T12:12:20",
+                            "NCDNT_ID": "3426093",
+                            "NCDNT_TYP": "AR",
+                            "DSC_TXT": "Subject arrested, 8 KG of fentanyl pills concealed in floor panels, 2015 Toyota Camry",
+                            "PORT_CD": "2503",
+                            "NCDNT_LOC_TXT": "CALEXICO WEST PORT OF ENTRY"
+                        },
+                        {
+                            "ENF_ACTN_ID": "2934100",
+                            "NCDNT_DTTM": "2024-08-30T15:45:00",
+                            "NCDNT_ID": "3500821",
+                            "NCDNT_TYP": "SW",
+                            "DSC_TXT": "3 KG of cocaine in aftermarket compartment, 2019 Nissan Sentra/one seizure",
+                            "PORT_CD": "2507",
+                            "NCDNT_LOC_TXT": "SAN YSIDRO PORT OF ENTRY"
+                        }
+                    ],
+                    "VISA": [
+                        {
+                            "TYPE": "REFUSAL",
+                            "RFSL_CD": "P2B1",
+                            "RFSL_DTTM": "2024-02-14T09:00:00"
+                        }
+                    ],
+                    "SECONDARY": [
+                        {
+                            "SUB_TRN_TYP": "CURRENCY_WRKSPC",
+                            "RSN_TXT": "UNDECLARED CURRENCY",
+                            "CRSG_DTTM": "2024-11-05T13:10:00",
+                            "RFRL_WRKSPC_ID_NBR": 180700456
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+
+    "PHONE_NUMBERS": [
+        "4432932929",
+        "7192932929",
+        "6195551234"
+    ],
+    "ADDRESSES": [
+        "234 Main St, Calexico, CA 92231, US",
+        "59553 Maizeland St, Mexicali, BCN, MX",
+        "1200 Imperial Ave, El Centro, CA 92243, US"
+    ]
+}
