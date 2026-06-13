@@ -1,18 +1,19 @@
-# Neo4j Galaxy
+# Galaxy Neptune
 
-Graph-based passenger network explorer. Builds a Neo4j graph from passenger data and visualizes it with a React force-graph frontend.
+Graph-based passenger network explorer. Builds a graph in Amazon Neptune from passenger data and visualizes it with a React force-graph frontend.
 
 ## Architecture
 
 | Service | Container | Port |
 |---------|-----------|------|
-| Neo4j | `neo4j_instance` | Browser: `7475`, Bolt: `7688` |
+| Amazon Neptune | AWS managed | openCypher endpoint: `8182` |
 | Flask API | `flask_api` | `5000` |
 | React Frontend | `react_front` | `3005` |
 
 ## Prerequisites
 
 - Docker & Docker Compose
+- AWS credentials with access to a Neptune cluster
 
 ## Quick Start
 
@@ -23,7 +24,7 @@ docker compose up --build -d
 
 ## Usage
 
-### Step 1 — Load data into Neo4j
+### Step 1 — Load data into Neptune
 
 Call the upax endpoint with a UPID to fetch mock passenger data and build the graph:
 
@@ -63,7 +64,7 @@ The graph auto-loads with the core network (MainPassenger, AssociatedPersons, De
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | `/api/upax_data/<upid>/` | Load passenger data into Neo4j |
+| GET | `/api/upax_data/<upid>/` | Load passenger data into Neptune |
 | GET | `/api/graph/core?upid=<upid>` | Core graph (passenger + associates + derogs) |
 | GET | `/api/graph/full?upid=<upid>` | Full graph (all node types) |
 | GET | `/api/graph/details?upid=<upid>` | Full graph for detail expansion |
@@ -71,15 +72,9 @@ The graph auto-loads with the core network (MainPassenger, AssociatedPersons, De
 | GET | `/api/graph/expand/<element_id>?upid=<upid>` | Expand a node's neighbors |
 | GET | `/api/graph/search?q=<query>&upid=<upid>` | Search passengers by ID/name |
 | GET | `/api/graph/filter?upid=<upid>&nodeTypes=...&relTypes=...` | Filtered graph |
-| POST | `/api/graph/cypher` | Run a read-only Cypher query |
+| POST | `/api/graph/cypher` | Run a read-only openCypher query |
 | POST | `/api/graph/summarize` | AI summary of graph data (requires GROQ_API_KEY) |
 | GET | `/api/graph/schema` | Available node labels and relationship types |
-
-## Neo4j Browser
-
-Access the Neo4j browser directly at `http://localhost:7475`. Connect with:
-- Username: `neo4j`
-- Password: `password`
 
 ## Stopping
 
@@ -87,7 +82,7 @@ Access the Neo4j browser directly at `http://localhost:7475`. Connect with:
 docker compose down
 ```
 
-To also remove the Neo4j data volume:
+To also remove data volumes:
 
 ```bash
 docker compose down -v
